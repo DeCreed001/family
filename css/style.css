@@ -1,55 +1,57 @@
 body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 header {
   text-align: center;
+  text-transform: uppercase;
 }
 h1 {
   background-color: #f1e8e8;
-  text-transform: uppercase;
   font-size: 5vw;
-  margin: 0px;
-  padding: 5px;
   color: #169168;
+  padding: 5px;
+  margin: 0px;
 }
 nav {
-  display: flex;
-  justify-content: space-evenly;
   background-color: #f1e8e8;
   padding: 15px;
+  display: flex;
+  justify-content: space-evenly;
 }
 nav a {
-  border: 1px solid white;
-  font-weight: 600;
-  font-size: 3vw;
-  padding: 10px;
-  background-color: #3b3cac;
-  color: #f1e8e8;
   text-decoration: none;
+  color: #f1e8e8;
+  background-color: #3b3cac;
+  padding: 10px;
+  border: 1px solid white;
+  font-size: 3vw;
+  font-weight: 600;
 }
 nav a:hover {
-  background-color: #b61aa9;
+  background-color: blueviolet;
 }
 .active {
   border-bottom: 3px solid red;
   background-color: #b61aa9;
 }
-.content {
+section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 .left {
   margin-right: 20px;
   margin: auto;
 }
 .left img {
-  height: 350px;
   width: 350px;
+  height: 350px;
 }
 .right h2 {
   font-size: 4vw;
   color: #169168;
+  text-transform: uppercase;
 }
 .right p {
   font-size: 20px;
